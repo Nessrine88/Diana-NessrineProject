@@ -2,4 +2,18 @@
 	display: block;
 	max-width: 100%;
 	height: auto;
+	align-items: center;
+}
+#main{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+#img-caption{
+	margin-top: 5px;
+	font-family: monospace;
+	color:blue;
+	text-align: center;
+	font-size: 17px;
 }
