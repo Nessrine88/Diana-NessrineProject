@@ -1,8 +1,12 @@
 #image {
 	display: block;
 	max-width: 100%;
-	height: auto;
+	
 	align-items: center;
+	width: 500px;
+	height: 500px;
+	margin-top: 20px;
+	
 }
 
 #main{
@@ -10,23 +14,24 @@
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
-	background-color: #eee;
+	background-color: #434242;
 }
 
 #img-caption{
 	margin-top: 5px;
 	font-family: monospace;
-	color:blue;
+	color:black;
 	text-align: center;
-	font-size: 17px;
+	font-size: 20px;
 }
 #title {
-	color: black;
+	color: white;
 	font-family: monospace ;
+	font-size: 50px;
 }
 
 #img-div {
-	background-color: white;
+	background-color: #22A39F;
 	width: 100%;
 	display: flex;
 	justify-content: center;
@@ -36,6 +41,8 @@
 
 ul li {
 	margin-top: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+color: #F3EFE0;
 }
 
 #tribute-info {
@@ -43,4 +50,9 @@ ul li {
 	justify-content: center;
 	flex-direction: column;
 	align-items: center;
+
 }
+#the-section-title{
+	font-size: 50px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color:white}
